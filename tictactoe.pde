@@ -14,8 +14,8 @@ void draw() {
   line(1000, 100, 1000, 1400);
   
   
-  turn += 1;
-  if (turn % 2 == 0) {
+  turn += 2;
+  if (turn % 3 == 0) {
     character = "x";
   } else {
     character = "o";
